@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PdfTool from '../components/PdfTool.jsx';
+---
+
+<Layout>
+  <div class="py-12 bg-gradient-to-b from-red-50 to-slate-50">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
+        Merge & Split PDFs <span class="text-red-600">Securely</span>
+      </h1>
+      <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
+        Combine multiple PDF files or divide a single PDF into separate pages directly in your browser. 
+        Zero server uploads. Fast, free, and completely private.
+      </p>
+    </div>
+  </div>
+
+  <div class="relative -mt-6 z-10 pb-16">
+    <PdfTool client:load />
+  </div>
+
+  <div class="max-w-4xl mx-auto px-4 py-16 prose prose-slate prose-red prose-headings:font-bold prose-h2:text-2xl prose-h2:mb-4 prose-p:text-slate-600 prose-li:text-slate-600">
+    <h2>How to Merge or Split PDFs Privately</h2>
+    <ol>
+      <li>Select 'Merge' to combine files, or 'Split' to separate pages.</li>
+      <li>Drag and drop your PDF documents into the upload box.</li>
+      <li>Reorder your files or enter your desired page ranges.</li>
+      <li>Click the action button to process the files instantly in your browser.</li>
+    </ol>
+    
+    <h2 class="mt-12">Why Choose Our Tool?</h2>
+    <ul>
+      <li><strong>Absolute Privacy:</strong> Powered by modern browser technology (pdf-lib). Your files are never uploaded to any cloud server.</li>
+      <li><strong>Lightning Fast:</strong> Processing happens directly on your device's RAM, with zero upload or download wait times.</li>
+      <li><strong>No File Size Limits:</strong> Because it runs locally, you aren't restricted by arbitrary server upload limits.</li>
+    </ul>
+
+    <h2 class="mt-12">Frequently Asked Questions</h2>
+    <div class="not-prose flex flex-col gap-4 mt-6">
+      <details class="group bg-white border border-slate-200 rounded-lg p-4 cursor-pointer">
+        <summary class="font-semibold text-slate-800 flex justify-between items-center list-none">
+          Is it really 100% private and secure?
+          <span class="transition group-open:rotate-180">
+            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+          </span>
+        </summary>
+        <p class="text-slate-600 mt-3">Yes. Unlike other tools that upload your documents to a remote server, this application uses JavaScript to process your PDF files locally inside your web browser. Your data never leaves your device.</p>
+      </details>
+      <details class="group bg-white border border-slate-200 rounded-lg p-4 cursor-pointer">
+        <summary class="font-semibold text-slate-800 flex justify-between items-center list-none">
+          Is there a file size limit for merging or splitting?
+          <span class="transition group-open:rotate-180">
+            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+          </span>
+        </summary>
+        <p class="text-slate-600 mt-3">No arbitrary limits are imposed by our tool. The only limitation is the amount of available RAM on your device. Most modern computers and smartphones can easily handle files that are hundreds of megabytes in size.</p>
+      </details>
+      <details class="group bg-white border border-slate-200 rounded-lg p-4 cursor-pointer">
+        <summary class="font-semibold text-slate-800 flex justify-between items-center list-none">
+          Can I extract specific pages from a PDF?
+          <span class="transition group-open:rotate-180">
+            <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+          </span>
+        </summary>
+        <p class="text-slate-600 mt-3">Yes! Use the "Split PDF" tab and select "Custom Range". You can enter specific pages or ranges, such as "1-5, 8, 11-13", to extract only the pages you need into a new PDF document.</p>
+      </details>
+    </div>
+  </div>
+
+  <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Is it really 100% private and secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Unlike other tools that upload your documents to a remote server, this application uses JavaScript to process your PDF files locally inside your web browser. Your data never leaves your device."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is there a file size limit for merging or splitting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No arbitrary limits are imposed by our tool. The only limitation is the amount of available RAM on your device. Most modern computers and smartphones can easily handle files that are hundreds of megabytes in size."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I extract specific pages from a PDF?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Use the \"Split PDF\" tab and select \"Custom Range\". You can enter specific pages or ranges, such as \"1-5, 8, 11-13\", to extract only the pages you need into a new PDF document."
+        }
+      }]
+    }
+  </script>
+</Layout>

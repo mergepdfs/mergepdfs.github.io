@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mergepdfs.github.io/sitemap-index.xml
