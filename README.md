@@ -1,43 +1,33 @@
-# Astro Starter Kit: Minimal
+# Merge & Split PDFs Online | 100% Free & Private
 
-```sh
-npm create astro@latest -- --template minimal
-```
+[![Astro](https://img.shields.io/badge/Astro-5.0-BC52EE.svg?style=flat&logo=astro)](https://astro.build)
+[![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat&logo=react)](https://react.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC.svg?style=flat&logo=tailwind-css)](https://tailwindcss.com)
+[![SEO Score](https://img.shields.io/badge/SEO_Score-100%25-E11D48.svg?style=flat)](https://mergepdfs.github.io)
+[![Support](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/kishara)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+A 100% client-side web application built with Astro, React, and Tailwind CSS that allows users to merge multiple PDFs into one, or split a PDF into separate pages entirely in the browser using `pdf-lib`.
 
-## 🚀 Project Structure
+🌐 **Production Website:** [https://mergepdfs.github.io](https://mergepdfs.github.io)  
+💖 **Support the Developer:** [https://ko-fi.com/kishara](https://ko-fi.com/kishara)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🔒 Military-Grade Privacy
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Your files **never** leave your device. All PDF processing happens locally in your browser's memory using `pdf-lib` without any backend server uploads.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🚀 Key Features
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Merge PDFs:** Combine multiple PDF documents into a single file with custom ordering (Move Up, Move Down, Remove).
+- **Split PDF:** Extract all pages as a `.zip` archive or extract specific page ranges (e.g. `1-5, 8, 11-13`).
+- **100% Private & Fast:** Instant processing in client RAM with zero server upload/download delays.
+- **Zero Size Limits:** No arbitrary file size limitations.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## ☕ Support
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+If you find this free tool helpful, consider supporting its maintenance and development:
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[![Support via Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/kishara)
