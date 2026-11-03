@@ -4,12 +4,12 @@
 [![React](https://img.shields.io/badge/React-19-61DAFB.svg?style=flat&logo=react)](https://react.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC.svg?style=flat&logo=tailwind-css)](https://tailwindcss.com)
 [![SEO Score](https://img.shields.io/badge/SEO_Score-100%25-E11D48.svg?style=flat)](https://mergepdfs.github.io)
-[![Support](https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&logo=ko-fi&logoColor=white)](https://ko-fi.com/kishara)
+[![Support](https://img.shields.io/badge/Support-Gumroad-FF90E8?style=flat&logo=gumroad&logoColor=black)](https://kisharadilshan.gumroad.com/coffee)
 
 A 100% client-side web application built with Astro, React, and Tailwind CSS that allows users to merge multiple PDFs into one, or split a PDF into separate pages entirely in the browser using `pdf-lib`.
 
 🌐 **Production Website:** [https://mergepdfs.github.io](https://mergepdfs.github.io)  
-💖 **Support the Developer:** [https://ko-fi.com/kishara](https://ko-fi.com/kishara)
+💖 **Support the Developer:** [https://kisharadilshan.gumroad.com/coffee](https://kisharadilshan.gumroad.com/coffee)
 
 ---
 
@@ -30,4 +30,4 @@ Your files **never** leave your device. All PDF processing happens locally in yo
 
 If you find this free tool helpful, consider supporting its maintenance and development:
 
-[![Support via Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/kishara)
+[![Support on Gumroad](https://img.shields.io/badge/Support-Gumroad-FF90E8?style=for-the-badge&logo=gumroad&logoColor=black)](https://kisharadilshan.gumroad.com/coffee)
